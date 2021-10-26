@@ -1,0 +1,234 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECE2E1;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Bitter', serif;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ttlesyte {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #FCD1D1;
+  color: #1E212D;
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #BDD2B6;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:0 25px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text{
+  width: 600px;
+}
+
+.title{
+  margin-bottom: 15px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.box__item{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+
+.box1{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+  flex-direction: row-reverse;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.box3{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  margin: 10px 0;
+  width: 500px;
+  border-radius: 10px;
+  flex-direction: column-reverse;
+}
+.box__item1{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 6px;
+  flex-direction: column;
+  margin: 5px 0;
+  padding: 5px 0;
+  margin-right: auto;
+  
+}
+h3 {
+  text-align: center  ;
+}
+.box__item2{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 6px;
+  flex-direction: column-reverse;
+  margin: 5px 0;
+  padding: 5px 0;
+  margin-right: auto;
+}
+.box__item3{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 6px;
+ flex-wrap: nowrap;
+  margin: 0 10px;
+  padding: 10px 0;
+  margin-right: auto;
+}
+.box__item4{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 6px;
+ flex-wrap: wrap;
+  margin: 0 10px;
+  padding: auto;
+  margin-right: auto;
+}
+.box__item5{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+ flex-wrap: wrap-reverse;
+  margin: auto 10px;
+  padding: auto;
+  margin-right: auto;
+  display: flex;
+}
+.box12{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+  flex-direction: row-reverse;
+}
+.first{
+  display: flex;
+}
+.box8{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.box__item8{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin:  5px;
+ justify-content: center;
+}
+.box__item9{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin:  5px;
+ justify-content: space-between;
+}
+.box9{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.box__item0{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin:  5px 3px;
+ justify-content: space-around;
+
+}
+.box0{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  margin: 5px 3px;
+  padding: 5px 3px;
+  width: 500px;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.box__item13{
+  background-color: #ECE2E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+.box13{
+  display: flex;
+  align-items: center;
+  background-color: #FFAAA7;
+  padding: 5px;
+  width: 500px;
+  border-radius: 10px;
+}
